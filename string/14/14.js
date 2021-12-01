@@ -1,5 +1,6 @@
 let str = prompt("Enter your Surname and Name:");
 console.log("Your string:", str);
+str = str.trim();
 for (let i = 0; i < str.length; i++) {
     if (str.charAt(i).charCodeAt() == 32) {
         var a = i + 1;

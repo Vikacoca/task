@@ -1,7 +1,7 @@
 let str = prompt("Enter 'я учу javascript!':");
 let a = str.length;
 let b = str.indexOf("учу");
-let c = str.indexOf("javascript");
+let c = str.indexOf("javascript!");
 let str2 = str.slice(b, b + 3);
 let str3 = str.substring(c, c + 11);
 console.log("Amount of symbols:", a);

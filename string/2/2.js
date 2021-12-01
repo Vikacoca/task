@@ -1,4 +1,5 @@
 var str = prompt("Enter your string:");
+console.log("Your string:", str);
 var str2 = "";
 for (let i = 0; i < str.length; i++) {
     let l = str.charAt(i);
