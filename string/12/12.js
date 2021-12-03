@@ -1,6 +1,6 @@
-var str = prompt("Enter the string:");
+let str = prompt("Enter the string:");
 console.log("Your string:", str);
-var arr = str.split(" ");
+const arr = str.split(" ");
 str = "";
 for (let i = 0; i < arr.length; i++) {
     str = str + arr[i].charAt(0).toUpperCase() + arr[i].slice(1) + " ";

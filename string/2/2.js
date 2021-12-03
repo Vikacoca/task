@@ -1,6 +1,6 @@
-var str = prompt("Enter your string:");
+const str = prompt("Enter your string:");
 console.log("Your string:", str);
-var str2 = "";
+let str2 = "";
 for (let i = 0; i < str.length; i++) {
     let l = str.charAt(i);
     if (l.charCodeAt() == 98) {

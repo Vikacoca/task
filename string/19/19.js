@@ -1,6 +1,6 @@
-let str = prompt("Enter the string:");
+const str = prompt("Enter the string:");
 console.log("Your string:", str);
-var a = 0, b = 0, c = 0, d = 0;
+let a = 0, b = 0, c = 0, d = 0;
 for (let i = 0; i < str.length; i++) {
     if ((str.charAt(i) == "А") || (str.charAt(i) == "а")) {
         a += 1;

@@ -3,6 +3,5 @@ console.log("Your string:", str);
 let str2 = str.toLowerCase();
 if (str2.includes("хорош")) {
     console.log("Result: YES!");
-}
-else
+} else
     console.log("Result: NO!");
