@@ -1,2 +1,2 @@
 # task2
- js
+ numbers
