@@ -53,7 +53,7 @@ if (startIndexSubStr) {
             swapStr += resultString.charAt(i);
         }
     }
-    
+
     console.log(swapStr)
 } else {
     console.log(`В строке ${mainStr} отсутствует ${subStr}`);
